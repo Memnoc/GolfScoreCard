@@ -9,19 +9,19 @@ public class Hole {
         this.mStrokeCount = mStrokeCount;
     }
 
-    public String getmLabel() {
+    public String getLabel() {
         return mLabel;
     }
 
-    public void setmLabel(String mLabel) {
+    public void setLabel(String mLabel) {
         this.mLabel = mLabel;
     }
 
-    public int getmStrokeCount() {
+    public int getStrokeCount() {
         return mStrokeCount;
     }
 
-    public void setmStrokeCount(int mStrokeCount) {
+    public void setStrokeCount(int mStrokeCount) {
         this.mStrokeCount = mStrokeCount;
     }
 }
