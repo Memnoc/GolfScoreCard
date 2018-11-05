@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Golf Score Card</string>
+    <string name="hole_1">Hole 1 :</string>
+    <string name="zero_sign">0</string>
+    <string name="minus_sign">-</string>
+    <string name="plus_sign">+</string>
+</resources>

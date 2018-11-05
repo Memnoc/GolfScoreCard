@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hole_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hole_1"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/strokeCount"
+        app:layout_constraintEnd_toStartOf="@+id/strokeCount"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/strokeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/zero_sign"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/removeStrokeButton"
+        app:layout_constraintEnd_toStartOf="@+id/removeStrokeButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/hole_label" />
+
+    <Button
+        android:id="@+id/removeStrokeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/minus_sign"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/addStrokeButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/strokeCount"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/addStrokeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/plus_sign"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/removeStrokeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/removeStrokeButton" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="491dp" />
+</android.support.constraint.ConstraintLayout>
