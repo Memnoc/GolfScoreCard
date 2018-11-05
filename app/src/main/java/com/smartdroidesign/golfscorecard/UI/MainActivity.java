@@ -1,7 +1,10 @@
-package com.smartdroidesign.golfscorecard;
+package com.smartdroidesign.golfscorecard.UI;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+
+import com.smartdroidesign.golfscorecard.Model.Hole;
+import com.smartdroidesign.golfscorecard.R;
 
 public class MainActivity extends ListActivity {
     private Hole[] mHoles = new Hole[18];

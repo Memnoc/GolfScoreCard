@@ -1,4 +1,4 @@
-package com.smartdroidesign.golfscorecard;
+package com.smartdroidesign.golfscorecard.Model;
 
 public class Hole {
     private String mLabel;
